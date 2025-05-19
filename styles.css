@@ -139,6 +139,10 @@ p{
   color:  rgb(45, 149, 234);
   
 }
+.singup:hover{
+  color: rgb(171, 156, 135);
+
+}
 .ultimo {
   display: flex;
   flex-direction: column;
