@@ -211,3 +211,115 @@ a {
 a:hover {
   color: rgb(190, 174, 151);
 }
+
+@media (max-width: 768px) {
+  body {
+    margin: 10px 0;
+    padding: 10px;
+    gap: 15px;
+    overflow-x: hidden;
+  }
+
+  .container-foto {
+    display: none;
+  }
+
+  .super-container {
+    max-width: 95%;
+    gap: 8px;
+  }
+
+  .container {
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+  }
+
+  .login {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+
+  .conjunto {
+    gap: 15px;
+  }
+
+  .cajas {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .placeholder {
+    font-size: 13px;
+    transform: translateY(-85%);
+  }
+
+  .boton {
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .or {
+    font-size: 13px;
+  }
+
+  .or p {
+    margin: 0 5px;
+  }
+
+  .palabra {
+    transform: translateY(2px);
+  }
+
+  .extras {
+    font-size: 9px;
+    gap: 8px;
+  }
+
+  .facebook-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .dont {
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-top: 8px;
+  }
+
+  .ultimo {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .ultimo p {
+    margin-bottom: 8px;
+  }
+
+  .fotico {
+    gap: 8px;
+  }
+
+  .fotico img {
+    padding-left: 50px;
+    justify-self: center;
+    max-width: 200px;
+  }
+  footer {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 15px;
+    margin-bottom: 10px;
+  }
+}
